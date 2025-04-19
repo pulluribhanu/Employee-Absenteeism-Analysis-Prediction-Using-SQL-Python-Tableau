@@ -1,0 +1,2 @@
+# Employee-Absenteeism-Analysis-Prediction-Using-SQL-Python-Tableau
+This project focuses on analyzing and predicting employee absenteeism during working days using various analytical tools such as SQL, Python, and Tableau. The aim is to understand the underlying reasons behind absenteeism and identify patterns based on factors such as education level, family situation, commuting distance, and medical reasons.
