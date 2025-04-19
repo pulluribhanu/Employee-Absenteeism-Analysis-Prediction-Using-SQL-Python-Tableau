@@ -1,0 +1,76 @@
+# Employee-Absenteeism-Analysis-Prediction-Using-SQL-Python-Tableau
+This project focuses on analyzing and predicting employee absenteeism during working days using various analytical tools such as SQL, Python, and Tableau. The aim is to understand the underlying reasons behind absenteeism and identify patterns based on factors such as education level, family situation, commuting distance, and medical reasons.
+
+The data used in this project is secondary data, sourced from an external dataset. This realistic business scenario helps in developing practical skills in data preprocessing, statistical analysis, and visualization to support data-driven decision-making in HR analytics.
+
+🧠 Business Problem:
+To analyze the absenteeism behavior of employees and predict the likelihood of absenteeism based on various factors. The key goal is to help HR and management proactively address issues that lead to frequent absences, improving productivity and employee well-being.
+
+🔧 Tools Used:
+SQL (MySQL): For data extraction and integration
+
+Python (Jupyter Notebook): For data preprocessing, analysis, and predictive modeling
+
+Tableau: For data visualization and interactive dashboards
+
+📊 Business Task:
+Predicting Absenteeism from Work
+
+🔍 Project Workflow & Key Steps:
+1. Data Preprocessing & Exploration
+Step 1:
+
+Removed irrelevant columns (e.g., Employee ID)
+
+Created dummy variables for categorical column “Reason for Absence”
+
+Step 2:
+
+Grouped reasons for absence into medical categories
+
+Checked for multicollinearity
+
+Used .loc[] method for column-wise grouping
+
+Step 3:
+
+Concatenated updated columns
+
+Renamed and re-ordered columns for clarity and ease of use
+
+Created data checkpoint for backup
+
+Step 4:
+
+Converted date column using pd.to_datetime()
+
+Extracted month from date column to analyze seasonal patterns
+
+Step 5:
+
+Converted the education column into dummy variables
+
+Built a machine learning model to predict probability of absenteeism
+
+2. Database Integration
+Connected MySQL with Jupyter Notebook using PyMySQL
+
+Queried and analyzed the data directly from the SQL database
+
+3. Visualization
+Created visualizations in Tableau to identify:
+
+Top reasons for absence
+
+Trends across months
+
+Absenteeism patterns based on education, distance, and family factors
+
+✅ Outcome:
+Built a predictive model to estimate the likelihood of absenteeism
+
+Delivered actionable insights through visual dashboards for HR decision-making
+
+Improved understanding of key factors influencing employee attendance
+
+
